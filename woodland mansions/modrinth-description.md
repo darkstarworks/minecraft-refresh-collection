@@ -4,7 +4,7 @@
 
 Woodland Mansions **reimagined** — larger, more varied, and actually worth the long trek out to find one. This data pack replaces the repetitive vanilla mansion layout with bigger, more interesting structures to explore and traverse.
 
-> 💡 **Works great with [TrialChamberPro](https://modrinth.com/plugin/trialchamberpro):** these mansions include **trial spawners and trial vaults**, so you can pair the pack with TCP (+ its premium modules) to snapshot, protect, auto-reset and manage each one just like a vanilla Trial Chamber — turning it into renewable, multiplayer-friendly loot content.
+> **Works great with [TrialChamberPro](https://modrinth.com/plugin/trialchamberpro):** these mansions include **trial spawners and trial vaults**, so you can pair the pack with TCP (+ its premium modules) to snapshot, protect, auto-reset and manage each one just like a vanilla Trial Chamber — turning it into renewable, multiplayer-friendly loot content.
 
 ## Why this re-release?
 
@@ -25,9 +25,9 @@ The original was created by **[lukidonu](https://modrinth.com/user/lukidonu)**, 
 
 The full collection of revived data packs & mods:
 
-- 🧩 [darkstarworks on Modrinth](https://modrinth.com/user/darkstarworks)
-- 🔌 [My plugins & modules (ESMP)](https://modrinth.com/organization/esmp)
-- 💾 [GitHub: minecraft-refresh-collection](https://github.com/darkstarworks/minecraft-refresh-collection)
+- [darkstarworks on Modrinth](https://modrinth.com/user/darkstarworks)
+- [My plugins & modules (ESMP)](https://modrinth.com/organization/esmp)
+- [GitHub: minecraft-refresh-collection](https://github.com/darkstarworks/minecraft-refresh-collection)
 
 ---
 

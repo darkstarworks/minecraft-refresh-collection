@@ -23,9 +23,9 @@ The original was created by **[lukidonu](https://modrinth.com/user/lukidonu)**, 
 
 The full collection of revived data packs & mods:
 
-- 🧩 [darkstarworks on Modrinth](https://modrinth.com/user/darkstarworks)
-- 🔌 [My plugins & modules (ESMP)](https://modrinth.com/organization/esmp)
-- 💾 [GitHub: minecraft-refresh-collection](https://github.com/darkstarworks/minecraft-refresh-collection)
+- [darkstarworks on Modrinth](https://modrinth.com/user/darkstarworks)
+- [My plugins & modules (ESMP)](https://modrinth.com/organization/esmp)
+- [GitHub: minecraft-refresh-collection](https://github.com/darkstarworks/minecraft-refresh-collection)
 
 ---
 
