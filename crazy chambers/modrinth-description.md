@@ -4,7 +4,7 @@
 
 Trial Chambers, but **bigger, wilder, and far less repetitive.** This data pack overhauls Trial Chamber generation so every chamber comes out larger, with far more varied and interesting layouts instead of the same handful of vanilla rooms.
 
-Works great alongside **[TrialChamberPro](https://modrinth.com/plugin/trialchamberpro)** (+ its premium modules) if you want renewable, multiplayer-friendly chambers on top.
+> 💡 **Works great with [TrialChamberPro](https://modrinth.com/plugin/trialchamberpro):** these chambers are packed with **trial spawners and trial vaults**, so you can pair the pack with TCP (+ its premium modules) to snapshot, protect, auto-reset and manage each one — turning it into renewable, multiplayer-friendly loot content.
 
 ## Why this re-release?
 

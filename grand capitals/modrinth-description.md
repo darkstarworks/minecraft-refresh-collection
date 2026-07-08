@@ -10,8 +10,9 @@ The original was created by **[lukidonu](https://modrinth.com/user/lukidonu)**, 
 
 ## What's been done
 
-- 🚧 **26.x update in progress** — see the GitHub repo for current status
-- ✅ Will be repackaged for **Fabric, Forge, NeoForge & Quilt** (data pack + mod)
+- ✅ Updated for **Minecraft 26.x**
+- ✅ Removed obsolete/broken data files left over from older Minecraft versions
+- ✅ Repackaged for **Fabric, Forge, NeoForge & Quilt** (data pack + mod)
 
 ## Credits
 

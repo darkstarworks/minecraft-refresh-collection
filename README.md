@@ -14,8 +14,8 @@ All projects in this collection were originally created by **[lukidonu](https://
 |---|---|---|
 | [Crazy Chambers](./crazy%20chambers) | Bigger, more varied Trial Chambers | ✅ Updated (data pack + mod) |
 | [Woodland Mansions](./woodland%20mansions) | Larger, reimagined Woodland Mansions | ✅ Updated (data pack + mod) |
-| [Grand Capitals](./grand%20capitals) | Rebuilt villages & illager structures | 🚧 In progress |
-| [Strongholds](./strongholds) | Bigger, more dangerous Strongholds | 🚧 In progress |
+| [Grand Capitals](./grand%20capitals) | Rebuilt villages & illager structures | ✅ Updated (data pack + mod) |
+| [Strongholds](./strongholds) | Bigger, more dangerous Strongholds | ✅ Updated (data pack + mod) |
 
 Each project folder contains the data pack (`.zip`), the loader mod (`.jar`, for Fabric / Forge / NeoForge / Quilt), and a `modrinth-description.md` used as the store page text.
 

@@ -4,14 +4,17 @@
 
 New **Strongholds** to uncover and conquer — bigger, more varied, and more dangerous than the cramped vanilla layout, giving that end-game trek a proper payoff.
 
+> 💡 **Works great with [TrialChamberPro](https://modrinth.com/plugin/trialchamberpro):** these strongholds include **trial spawners and trial vaults**, so you can pair the pack with TCP (+ its premium modules) to snapshot, protect, auto-reset and manage each one just like a vanilla Trial Chamber — turning it into renewable, multiplayer-friendly loot content.
+
 ## Why this re-release?
 
 The original was created by **[lukidonu](https://modrinth.com/user/lukidonu)**, who has since **discontinued all of their projects** (*"Projects are discontinued #RIP"*). I tried to reach the author but wasn't able to make contact, so I've taken over maintenance to keep the project alive and compatible with current versions of Minecraft.
 
 ## What's been done
 
-- 🚧 **26.x update in progress** — see the GitHub repo for current status
-- ✅ Will be repackaged for **Fabric, Forge, NeoForge & Quilt** (data pack + mod)
+- ✅ Updated for **Minecraft 26.x**
+- ✅ Fixed features that were broken or not behaving as intended
+- ✅ Repackaged for **Fabric, Forge, NeoForge & Quilt** (data pack + mod)
 
 ## Credits
 
