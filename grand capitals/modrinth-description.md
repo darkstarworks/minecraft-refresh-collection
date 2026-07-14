@@ -4,6 +4,11 @@
 
 Rebuilt vanilla **villages and illager structures** to breathe new life into your world — settlements that finally feel like real, grand capitals rather than a scattering of the same few huts.
 
+## What's new in v1.2.0
+- Three previously-unused buildings added for more variety (an extra plains house, a savanna town centre, and a taiga town centre)
+- Light weathering added to village stonework, plus more consistent placement on terrain
+- Smaller download (~4.4 MB lighter) and a fixed console warning
+
 ## Why this re-release?
 
 The original was created by **[lukidonu](https://modrinth.com/user/lukidonu)**, who has since **discontinued all of their projects** (*"Projects are discontinued #RIP"*). I tried to reach the author but wasn't able to make contact, so I've taken over maintenance to keep the project alive and compatible with current versions of Minecraft.
