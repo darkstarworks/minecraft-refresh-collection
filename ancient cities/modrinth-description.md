@@ -1,4 +1,9 @@
-# Luki's Ancient Cities
+<center>
+
+## (Luki's) Ancient Cities<br>
+
+<img src="https://raw.githubusercontent.com/darkstarworks/minecraft-refresh-collection/main/ancient%20cities/ancient_cities_banner.png" alt="Ancient Cities Banner" width="550">
+</center><br>
 
 > **A community-refreshed re-release.** Original by lukidonu — now updated & maintained by darkstarworks.
 

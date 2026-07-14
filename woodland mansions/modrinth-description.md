@@ -1,4 +1,9 @@
-# Luki's Woodland Mansions
+<center>
+
+## (Luki's) Woodland Mansions<br>
+
+<img src="https://raw.githubusercontent.com/darkstarworks/minecraft-refresh-collection/main/woodland%20mansions/woodland_mansions_banner.png" alt="Woodland Mansions Banner" width="550">
+</center><br>
 
 > **A community-refreshed re-release.** Original by lukidonu — now updated & maintained by darkstarworks.
 

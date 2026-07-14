@@ -1,4 +1,9 @@
-# Luki's Grand Capitals
+<center>
+
+## (Luki's) Grand Capitals<br>
+
+<img src="https://raw.githubusercontent.com/darkstarworks/minecraft-refresh-collection/main/grand%20capitals/grand_capitals_banner.png" alt="Grand Capitals Banner" width="550">
+</center><br>
 
 > **A community-refreshed re-release.** Original by lukidonu — now updated & maintained by darkstarworks.
 

@@ -1,14 +1,15 @@
-# Luki's Crazy Chambers
+<center>
+
+## (Luki's) Crazy Chambers<br>
+
+<img src="https://raw.githubusercontent.com/darkstarworks/minecraft-refresh-collection/main/crazy%20chambers/crazy_chambers_banner.png" alt="Crazy Chambers Banner" width="550">
+</center><br>
 
 > **A community-refreshed re-release.** Original by lukidonu — now updated & maintained by darkstarworks.
 
 Trial Chambers, but **bigger, wilder, and far less repetitive.** This data pack overhauls Trial Chamber generation so every chamber comes out larger, with far more varied and interesting layouts instead of the same handful of vanilla rooms.
 
 > **Works great with [TrialChamberPro](https://modrinth.com/plugin/trialchamberpro):** these chambers are packed with **trial spawners and trial vaults**, so you can pair the pack with TCP (+ its premium modules) to snapshot, protect, auto-reset and manage each one — turning it into renewable, multiplayer-friendly loot content.
-
-## What's new in v1.1.0
-- Chambers now suppress natural mob spawns, so only the trial spawners populate them (matching vanilla Trial Chambers)
-- Added subtle weathering to the stonework — some deepslate bricks and tiles now generate cracked
 
 ## Why this re-release?
 
