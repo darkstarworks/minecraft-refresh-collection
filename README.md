@@ -16,6 +16,7 @@ All projects in this collection were originally created by **[lukidonu](https://
 | [Woodland Mansions](./woodland%20mansions) | Larger, reimagined Woodland Mansions | ✅ Updated (data pack + mod) |
 | [Grand Capitals](./grand%20capitals) | Rebuilt villages & illager structures | ✅ Updated (data pack + mod) |
 | [Strongholds](./strongholds) | Bigger, more dangerous Strongholds | ✅ Updated (data pack + mod) |
+| [Ancient Cities](./ancient%20cities) | New Ancient Cities to be lost in | ✅ Updated (data pack + mod) |
 
 Each project folder contains the data pack (`.zip`), the loader mod (`.jar`, for Fabric / Forge / NeoForge / Quilt), and a `modrinth-description.md` used as the store page text.
 
