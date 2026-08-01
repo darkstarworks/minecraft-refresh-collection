@@ -1,0 +1,4 @@
+tools/build/
+tools/dist/
+tools/*.spec
+__pycache__/

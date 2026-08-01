@@ -1,0 +1,122 @@
+# =============================================================
+#  LOOT SETTINGS
+#  Change the numbers, save this file, then run Build-Loot.
+#
+#  rarity  = how often an item shows up. Higher = more common.
+#            (it's a share of the total, not a percentage)
+#  amount  = how many you get. "1-3" means 1 to 3; a single
+#            number means always exactly that many.
+#  draws   = how many times the container rolls for an item.
+#
+#  Delete a line to remove that item. Copy a line to add one.
+#  Spell item names exactly, e.g. minecraft:diamond
+# =============================================================
+tables:
+  ancient_cities/ancient_city_barrel:
+    draws: 6
+    loot:
+    - item: minecraft:sculk_vein
+      rarity: 6
+    - item: minecraft:cobweb
+      rarity: 4
+    - item: minecraft:glow_berries
+      rarity: 2
+    - item: minecraft:book
+      rarity: 3
+    - item: gray_wool
+      rarity: 2
+    - item: minecraft:gray_carpet
+      rarity: 2
+  ancient_cities/ancient_city_pot:
+    draws: 1
+    loot:
+    - item: minecraft:sculk_vein
+      rarity: 125
+      amount: 1-3
+    - item: minecraft:glow_berries
+      rarity: 100
+      amount: 2-8
+    - item: minecraft:coal
+      rarity: 100
+      amount: 1-2
+    - item: minecraft:skeleton_skull
+      rarity: 5
+      amount: 1-2
+  minecraft/chests/ancient_city:
+    draws: 10
+    loot:
+    - item: minecraft:diamond
+      rarity: 3
+      amount: 1-2
+    - item: minecraft:music_disc_otherside
+      rarity: 4
+    - item: minecraft:ward_armor_trim_smithing_template
+      rarity: 4
+    - item: minecraft:silence_armor_trim_smithing_template
+      rarity: 1
+    - item: minecraft:diamond_hoe
+      rarity: 2
+      amount: 1
+    - item: minecraft:iron_pickaxe
+      rarity: 3
+      amount: 1
+    - item: minecraft:disc_fragment_5
+      rarity: 6
+    - item: minecraft:name_tag
+      rarity: 6
+    - item: bone
+      rarity: 8
+      amount: 4-8
+    - item: minecraft:sculk_vein
+      rarity: 8
+      amount: 1-2
+    - item: minecraft:echo_shard
+      rarity: 4
+      amount: 1-2
+    - item: minecraft:sculk
+      rarity: 5
+      amount: 4-5
+    - item: minecraft:experience_bottle
+      rarity: 6
+    - item: minecraft:amethyst_shard
+      rarity: 8
+    - item: minecraft:saddle
+      rarity: 4
+    - item: minecraft:coal
+      rarity: 4
+      amount: 1-7
+    - item: minecraft:raw_iron
+      rarity: 3
+      amount: 2-4
+    - item: minecraft:book
+      rarity: 4
+    - item: minecraft:book
+      rarity: 5
+    - item: minecraft:potion
+      rarity: 4
+    - item: minecraft:enchanted_golden_apple
+      rarity: 1
+    - item: minecraft:golden_apple
+      rarity: 3
+      amount: 1-2
+  minecraft/chests/ancient_city_ice_box:
+    draws: 4-10
+    loot:
+    - item: minecraft:suspicious_stew
+      rarity: 1
+      amount: 2-6
+    - item: minecraft:golden_carrot
+      rarity: 1
+      amount: 1-10
+    - item: minecraft:golden_apple
+      rarity: 1
+      amount: 1-10
+    - item: minecraft:baked_potato
+      rarity: 1
+      amount: 1-10
+    - item: minecraft:packed_ice
+      rarity: 2
+      amount: 2-6
+    - item: minecraft:snowball
+      rarity: 4
+      amount: 2-6

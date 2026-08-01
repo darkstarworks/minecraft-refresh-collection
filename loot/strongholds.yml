@@ -1,0 +1,346 @@
+# =============================================================
+#  LOOT SETTINGS
+#  Change the numbers, save this file, then run Build-Loot.
+#
+#  rarity  = how often an item shows up. Higher = more common.
+#            (it's a share of the total, not a percentage)
+#  amount  = how many you get. "1-3" means 1 to 3; a single
+#            number means always exactly that many.
+#  draws   = how many times the container rolls for an item.
+#
+#  Delete a line to remove that item. Copy a line to add one.
+#  Spell item names exactly, e.g. minecraft:diamond
+# =============================================================
+tables:
+  minecraft/chests/stronghold_corridor:
+    pools:
+    - draws: 5
+      loot:
+      - item: minecraft:coal
+        rarity: 30
+        amount: 1-3
+      - item: minecraft:iron_ingot
+        rarity: 20
+        amount: 1-3
+      - item: minecraft:gold_ingot
+        rarity: 15
+        amount: 1-2
+      - item: minecraft:diamond
+        rarity: 3
+      - item: minecraft:redstone
+        rarity: 10
+        amount: 1-4
+      - item: minecraft:ender_pearl
+        rarity: 5
+      - item: minecraft:iron_helmet
+        rarity: 3
+      - item: minecraft:iron_chestplate
+        rarity: 3
+      - item: minecraft:iron_leggings
+        rarity: 3
+      - item: minecraft:iron_boots
+        rarity: 3
+      - item: minecraft:iron_sword
+        rarity: 5
+      - item: minecraft:iron_pickaxe
+        rarity: 5
+      - item: minecraft:golden_apple
+        rarity: 10
+      - item: minecraft:iron_horse_armor
+        rarity: 5
+      - item: minecraft:music_disc_otherside
+        rarity: 2
+      - item: minecraft:trial_key
+        rarity: 2
+      - item: minecraft:bread
+        rarity: 20
+        amount: 1-3
+      - item: apple
+        rarity: 20
+    - draws: 1
+      loot:
+      - item: minecraft:eye_armor_trim_smithing_template
+        rarity: 1
+      - item: minecraft:bone
+        rarity: 20
+        amount: 1-5
+  minecraft/chests/stronghold_crossing:
+    draws: 7
+    loot:
+    - item: minecraft:iron_ingot
+      rarity: 10
+      amount: 1-3
+    - item: minecraft:coal
+      rarity: 10
+      amount: 1-3
+    - item: minecraft:wheat_seeds
+      rarity: 15
+    - item: minecraft:cobweb
+      rarity: 10
+    - item: minecraft:bread
+      rarity: 10
+      amount: 1-2
+    - item: minecraft:apple
+      rarity: 15
+    - item: minecraft:leather
+      rarity: 20
+    - item: minecraft:book
+      rarity: 25
+  strongholds/crypt:
+    draws: 12
+    loot:
+    - item: minecraft:bone
+      rarity: 20
+      amount: 1-3
+    - item: minecraft:book
+      rarity: 4
+    - item: minecraft:coal
+      rarity: 15
+      amount: 1-3
+    - item: minecraft:skeleton_skull
+      rarity: 1
+    - item: minecraft:cobweb
+      rarity: 10
+  strongholds/stronghold_barrrel:
+    draws: 5
+    loot:
+    - item: minecraft:iron_nugget
+      rarity: 10
+      amount: 1-3
+    - item: minecraft:coal
+      rarity: 5
+      amount: 1-3
+    - item: minecraft:wheat_seeds
+      rarity: 15
+    - item: minecraft:cobweb
+      rarity: 10
+  strongholds/stronghold_equipment:
+    draws: 1
+    loot: []
+  strongholds/stronghold_equipment_ominous:
+    draws: 1
+    loot: []
+  strongholds/stronghold_equipment_ranged:
+    draws: 1
+    loot: []
+  strongholds/stronghold_equipment_ranged_ominous:
+    draws: 1
+    loot: []
+  strongholds/stronghold_ominous_items:
+    draws: 1
+    loot:
+    - item: minecraft:lingering_potion
+      rarity: 1
+      amount: 1
+  strongholds/stronghold_pot:
+    draws: 1
+    loot:
+    - item: minecraft:iron_nugget
+      rarity: 10
+      amount: 1-3
+    - item: minecraft:wheat_seeds
+      rarity: 15
+    - item: minecraft:torch
+      rarity: 10
+  strongholds/stronghold_spawner_eject:
+    draws: 1
+    loot:
+    - item: minecraft:trial_key
+      rarity: 7
+  strongholds/stronghold_spawner_eject_ominous:
+    draws: 1
+    loot:
+    - item: minecraft:ominous_trial_key
+      rarity: 60
+    - item: minecraft:golden_apple
+      rarity: 47
+      amount: 1-2
+    - item: minecraft:enchanted_golden_apple
+      rarity: 3
+      amount: 1-1
+  strongholds/stronghold_treasure:
+    pools:
+    - draws: 10
+      loot:
+      - item: minecraft:iron_ingot
+        rarity: 30
+        amount: 1-3
+      - item: minecraft:gold_ingot
+        rarity: 25
+        amount: 1-2
+      - item: minecraft:diamond
+        rarity: 5
+        amount: 1-1
+      - item: minecraft:ender_pearl
+        rarity: 3
+      - item: minecraft:diamond_helmet
+        rarity: 2
+      - item: minecraft:diamond_chestplate
+        rarity: 1
+      - item: minecraft:diamond_leggings
+        rarity: 1
+      - item: minecraft:diamond_boots
+        rarity: 2
+      - item: minecraft:diamond_sword
+        rarity: 3
+      - item: minecraft:golden_apple
+        rarity: 7
+      - item: minecraft:enchanted_golden_apple
+        rarity: 1
+      - item: minecraft:music_disc_otherside
+        rarity: 2
+    - draws: 1
+      loot:
+      - item: minecraft:trial_key
+        rarity: 1
+    - draws: 1
+      loot:
+      - item: minecraft:ominous_trial_key
+        rarity: 1
+    - draws: 1
+      loot:
+      - item: minecraft:spire_armor_trim_smithing_template
+        rarity: 1
+  strongholds/vault/reward:
+    pools:
+    - draws: 1
+      loot: []
+    - draws: 1-3
+      loot: []
+    - draws: 1
+      loot: []
+  strongholds/vault/reward_common:
+    draws: 1
+    loot:
+    - item: minecraft:gold_ingot
+      rarity: 10
+      amount: 2-4
+    - item: minecraft:golden_apple
+      rarity: 3
+      amount: 1
+    - item: minecraft:diamond
+      rarity: 3
+      amount: 2
+    - item: minecraft:emerald
+      rarity: 10
+      amount: 2-5
+    - item: minecraft:phantom_membrane
+      rarity: 10
+      amount: 1-2
+    - item: minecraft:experience_bottle
+      rarity: 7
+      amount: 1-3
+    - item: minecraft:golden_carrot
+      rarity: 7
+      amount: 1-3
+  strongholds/vault/reward_ominous:
+    pools:
+    - draws: 1
+      loot: []
+    - draws: 1-3
+      loot: []
+    - draws: 1
+      loot: []
+  strongholds/vault/reward_ominous_common:
+    draws: 1
+    loot:
+    - item: minecraft:potion
+      rarity: 5
+      amount: 1-1
+    - item: minecraft:book
+      rarity: 10
+    - item: minecraft:diamond
+      rarity: 6
+      amount: 1-1
+    - item: minecraft:ender_pearl
+      rarity: 3
+      amount: 1
+    - item: minecraft:ominous_bottle
+      rarity: 10
+      amount: 1-1
+    - item: minecraft:experience_bottle
+      rarity: 7
+      amount: 1-3
+    - item: minecraft:gold_ingot
+      rarity: 7
+      amount: 2-7
+  strongholds/vault/reward_ominous_rare:
+    draws: 1
+    loot:
+    - item: minecraft:potion
+      rarity: 6
+      amount: 1-2
+    - item: minecraft:diamond_shovel
+      rarity: 2
+    - item: minecraft:diamond_pickaxe
+      rarity: 2
+    - item: minecraft:dragon_breath
+      rarity: 2
+      amount: 2
+    - item: minecraft:diamond_block
+      rarity: 1
+      amount: 1
+    - item: minecraft:lapis_block
+      rarity: 10
+      amount: 1-2
+    - item: minecraft:gold_block
+      rarity: 10
+      amount: 1-2
+    - item: minecraft:diamond_helmet
+      rarity: 2
+    - item: minecraft:diamond_chestplate
+      rarity: 2
+    - item: minecraft:diamond_leggings
+      rarity: 2
+    - item: minecraft:diamond_boots
+      rarity: 2
+  strongholds/vault/reward_ominous_unique:
+    draws: 1
+    loot:
+    - item: minecraft:enchanted_golden_apple
+      rarity: 3
+    - item: minecraft:spire_armor_trim_smithing_template
+      rarity: 3
+    - item: minecraft:ender_eye
+      rarity: 1
+  strongholds/vault/reward_rare:
+    draws: 1
+    loot:
+    - item: minecraft:potion
+      rarity: 5
+      amount: 1-1
+    - item: minecraft:diamond_shovel
+      rarity: 2
+    - item: minecraft:ominous_bottle
+      rarity: 5
+      amount: 1-1
+    - item: minecraft:diamond
+      rarity: 4
+      amount: 2-3
+    - item: minecraft:cake
+      rarity: 1
+      amount: 1-1
+    - item: minecraft:ender_pearl
+      rarity: 4
+      amount: 1
+    - item: minecraft:book
+      rarity: 10
+    - item: minecraft:crossbow
+      rarity: 5
+    - item: minecraft:bow
+      rarity: 5
+    - item: minecraft:diamond_helmet
+      rarity: 2
+    - item: minecraft:diamond_boots
+      rarity: 2
+  strongholds/vault/reward_unique:
+    draws: 1
+    loot:
+    - item: minecraft:enchanted_golden_apple
+      rarity: 1
+    - item: minecraft:eye_armor_trim_smithing_template
+      rarity: 3
+    - item: minecraft:dragon_breath
+      rarity: 3
+    - item: minecraft:music_disc_otherside
+      rarity: 1

@@ -1,0 +1,474 @@
+# =============================================================
+#  LOOT SETTINGS
+#  Change the numbers, save this file, then run Build-Loot.
+#
+#  rarity  = how often an item shows up. Higher = more common.
+#            (it's a share of the total, not a percentage)
+#  amount  = how many you get. "1-3" means 1 to 3; a single
+#            number means always exactly that many.
+#  draws   = how many times the container rolls for an item.
+#
+#  Delete a line to remove that item. Copy a line to add one.
+#  Spell item names exactly, e.g. minecraft:diamond
+# =============================================================
+tables:
+  minecraft/chests/pillager_outpost:
+    draws: 10
+    loot:
+    - item: minecraft:emerald
+      rarity: 10
+    - item: minecraft:emerald_block
+      rarity: 2
+    - item: minecraft:name_tag
+      rarity: 2
+    - item: minecraft:experience_bottle
+      rarity: 7
+    - item: minecraft:iron_ingot
+      rarity: 7
+    - item: minecraft:sentry_armor_trim_smithing_template
+      rarity: 1
+    - item: minecraft:diamond
+      rarity: 1
+    - item: minecraft:target
+      rarity: 2
+    - item: minecraft:book
+      rarity: 1
+  minecraft/chests/village/village_armorer:
+    draws: 10
+    loot:
+    - item: minecraft:iron_ingot
+      rarity: 10
+    - item: minecraft:iron_nugget
+      rarity: 5
+    - item: minecraft:iron_chestplate
+      rarity: 1
+    - item: minecraft:iron_leggings
+      rarity: 1
+    - item: minecraft:iron_boots
+      rarity: 1
+    - item: minecraft:iron_helmet
+      rarity: 1
+    - item: minecraft:chainmail_helmet
+      rarity: 1
+    - item: minecraft:chainmail_chestplate
+      rarity: 1
+    - item: minecraft:chainmail_leggings
+      rarity: 1
+    - item: minecraft:chainmail_boots
+      rarity: 1
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_butcher:
+    draws: 10
+    loot:
+    - item: minecraft:coal
+      rarity: 10
+    - item: minecraft:porkchop
+      rarity: 5
+    - item: minecraft:beef
+      rarity: 5
+    - item: minecraft:chicken
+      rarity: 5
+    - item: minecraft:rabbit
+      rarity: 5
+    - item: minecraft:mutton
+      rarity: 5
+    - item: minecraft:leather
+      rarity: 3
+    - item: minecraft:rabbit_hide
+      rarity: 2
+    - item: minecraft:cooked_beef
+      rarity: 2
+    - item: minecraft:cooked_chicken
+      rarity: 2
+    - item: minecraft:cooked_porkchop
+      rarity: 2
+    - item: minecraft:cooked_rabbit
+      rarity: 2
+    - item: minecraft:cooked_mutton
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 10
+    - item: minecraft:iron_axe
+      rarity: 1
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_cartographer:
+    pools:
+    - draws: 10
+      loot:
+      - item: minecraft:book
+        rarity: 10
+      - item: minecraft:paper
+        rarity: 30
+      - item: minecraft:writable_book
+        rarity: 4
+      - item: minecraft:map
+        rarity: 4
+      - item: minecraft:spyglass
+        rarity: 2
+      - item: minecraft:compass
+        rarity: 4
+      - item: minecraft:cobweb
+        rarity: 20
+    - draws: 1
+      loot:
+      - item: minecraft:book
+        rarity: 1
+  minecraft/chests/village/village_desert_house:
+    draws: 15
+    loot:
+    - item: minecraft:emerald
+      rarity: 1
+    - item: minecraft:acacia_sapling
+      rarity: 2
+    - item: minecraft:dead_bush
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 2
+    - item: minecraft:flower_pot
+      rarity: 2
+    - item: minecraft:beetroot
+      rarity: 5
+    - item: minecraft:melon_slice
+      rarity: 5
+    - item: minecraft:wheat
+      rarity: 10
+    - item: minecraft:bread
+      rarity: 5
+    - item: minecraft:book
+      rarity: 1
+    - item: minecraft:paper
+      rarity: 1
+    - item: minecraft:hay_block
+      rarity: 3
+    - item: minecraft:brick
+      rarity: 3
+    - item: minecraft:poppy
+      rarity: 3
+  minecraft/chests/village/village_fisher:
+    draws: 10
+    loot:
+    - item: minecraft:cod
+      rarity: 10
+    - item: minecraft:salmon
+      rarity: 7
+    - item: minecraft:pufferfish
+      rarity: 5
+    - item: minecraft:tropical_fish
+      rarity: 3
+    - item: minecraft:water_bucket
+      rarity: 2
+    - item: minecraft:dried_kelp_block
+      rarity: 3
+    - item: minecraft:kelp
+      rarity: 20
+    - item: minecraft:fishing_rod
+      rarity: 3
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_fletcher:
+    draws: 10
+    loot:
+    - item: minecraft:string
+      rarity: 20
+    - item: minecraft:arrow
+      rarity: 20
+    - item: minecraft:stick
+      rarity: 10
+    - item: minecraft:flint
+      rarity: 10
+    - item: minecraft:iron_ingot
+      rarity: 5
+    - item: minecraft:bow
+      rarity: 3
+    - item: minecraft:crossbow
+      rarity: 3
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_mason:
+    draws: 10
+    loot:
+    - item: minecraft:brick
+      rarity: 30
+    - item: minecraft:clay
+      rarity: 30
+    - item: minecraft:granite
+      rarity: 10
+    - item: minecraft:andesite
+      rarity: 5
+    - item: minecraft:diorite
+      rarity: 5
+    - item: minecraft:stone
+      rarity: 5
+    - item: minecraft:mud_bricks
+      rarity: 5
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_plains_house:
+    draws: 15
+    loot:
+    - item: minecraft:emerald
+      rarity: 1
+    - item: minecraft:oak_sapling
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 2
+    - item: minecraft:flower_pot
+      rarity: 2
+    - item: minecraft:carrot
+      rarity: 5
+    - item: minecraft:potato
+      rarity: 5
+    - item: minecraft:wheat
+      rarity: 10
+    - item: minecraft:bread
+      rarity: 5
+    - item: minecraft:book
+      rarity: 1
+    - item: minecraft:paper
+      rarity: 1
+    - item: minecraft:hay_block
+      rarity: 3
+    - item: minecraft:brick
+      rarity: 3
+    - item: minecraft:poppy
+      rarity: 3
+  minecraft/chests/village/village_savanna_house:
+    draws: 15
+    loot:
+    - item: minecraft:emerald
+      rarity: 1
+    - item: minecraft:acacia_sapling
+      rarity: 2
+    - item: minecraft:dead_bush
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 2
+    - item: minecraft:flower_pot
+      rarity: 2
+    - item: minecraft:potato
+      rarity: 5
+    - item: minecraft:melon_slice
+      rarity: 5
+    - item: minecraft:wheat
+      rarity: 10
+    - item: minecraft:bread
+      rarity: 5
+    - item: minecraft:book
+      rarity: 1
+    - item: minecraft:paper
+      rarity: 1
+    - item: minecraft:hay_block
+      rarity: 3
+    - item: minecraft:clay_ball
+      rarity: 3
+    - item: minecraft:poppy
+      rarity: 3
+  minecraft/chests/village/village_shepherd:
+    draws: 10
+    loot:
+    - item: minecraft:string
+      rarity: 30
+    - item: minecraft:white_wool
+      rarity: 20
+    - item: minecraft:gray_wool
+      rarity: 10
+    - item: minecraft:brown_wool
+      rarity: 10
+    - item: minecraft:black_wool
+      rarity: 5
+    - item: minecraft:blue_dye
+      rarity: 5
+    - item: minecraft:yellow_dye
+      rarity: 5
+    - item: minecraft:red_dye
+      rarity: 5
+    - item: minecraft:shears
+      rarity: 10
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_snowy_house:
+    draws: 15
+    loot:
+    - item: minecraft:emerald
+      rarity: 1
+    - item: minecraft:spruce_sapling
+      rarity: 2
+    - item: minecraft:snowball
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 2
+    - item: minecraft:flower_pot
+      rarity: 2
+    - item: minecraft:beetroot
+      rarity: 5
+    - item: minecraft:potato
+      rarity: 5
+    - item: minecraft:ice
+      rarity: 10
+    - item: minecraft:pumpkin_pie
+      rarity: 5
+    - item: minecraft:book
+      rarity: 1
+    - item: minecraft:paper
+      rarity: 1
+    - item: minecraft:snow_block
+      rarity: 3
+    - item: minecraft:brick
+      rarity: 3
+    - item: minecraft:poppy
+      rarity: 3
+  minecraft/chests/village/village_taiga_house:
+    draws: 15
+    loot:
+    - item: minecraft:emerald
+      rarity: 1
+    - item: minecraft:spruce_sapling
+      rarity: 2
+    - item: minecraft:stick
+      rarity: 2
+    - item: minecraft:flower_pot
+      rarity: 2
+    - item: minecraft:carrot
+      rarity: 5
+    - item: minecraft:bone
+      rarity: 5
+    - item: minecraft:pumpkin_seeds
+      rarity: 10
+    - item: minecraft:pumpkin_pie
+      rarity: 5
+    - item: minecraft:book
+      rarity: 1
+    - item: minecraft:paper
+      rarity: 1
+    - item: minecraft:clay
+      rarity: 3
+    - item: minecraft:poppy
+      rarity: 3
+  minecraft/chests/village/village_tannery:
+    draws: 10
+    loot:
+    - item: minecraft:leather
+      rarity: 20
+    - item: minecraft:rabbit_hide
+      rarity: 20
+    - item: minecraft:stick
+      rarity: 10
+    - item: minecraft:leather_helmet
+      rarity: 5
+    - item: minecraft:leather_chestplate
+      rarity: 5
+    - item: minecraft:leather_leggings
+      rarity: 5
+    - item: minecraft:leather_boots
+      rarity: 5
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_toolsmith:
+    draws: 10
+    loot:
+    - item: minecraft:iron_ingot
+      rarity: 10
+    - item: minecraft:iron_nugget
+      rarity: 5
+    - item: minecraft:gold_ingot
+      rarity: 5
+    - item: minecraft:diamond
+      rarity: 2
+    - item: minecraft:iron_pickaxe
+      rarity: 1
+    - item: minecraft:iron_shovel
+      rarity: 1
+    - item: minecraft:iron_axe
+      rarity: 1
+    - item: minecraft:iron_hoe
+      rarity: 1
+    - item: minecraft:cobweb
+      rarity: 7
+  minecraft/chests/village/village_weaponsmith:
+    draws: 10
+    loot:
+    - item: minecraft:iron_ingot
+      rarity: 10
+    - item: minecraft:iron_nugget
+      rarity: 5
+    - item: minecraft:gold_ingot
+      rarity: 5
+    - item: minecraft:diamond
+      rarity: 2
+    - item: minecraft:iron_sword
+      rarity: 3
+    - item: minecraft:golden_sword
+      rarity: 1
+    - item: minecraft:iron_axe
+      rarity: 3
+    - item: minecraft:bow
+      rarity: 3
+    - item: minecraft:crossbow
+      rarity: 1
+    - item: minecraft:cobweb
+      rarity: 7
+  revampedvillages/desert_common:
+    draws: 1
+    loot: []
+  revampedvillages/pillager_treasure:
+    draws: 1
+    loot: []
+  revampedvillages/plains_common:
+    draws: 1
+    loot: []
+  revampedvillages/professions/armorer:
+    draws: 1
+    loot: []
+  revampedvillages/professions/butcher:
+    draws: 1
+    loot: []
+  revampedvillages/professions/cartographer_librarian:
+    draws: 1
+    loot: []
+  revampedvillages/professions/fisherman:
+    draws: 1
+    loot: []
+  revampedvillages/professions/fletcher:
+    draws: 1
+    loot: []
+  revampedvillages/professions/leatherworker:
+    draws: 1
+    loot: []
+  revampedvillages/professions/mason:
+    draws: 1
+    loot: []
+  revampedvillages/professions/shepherd:
+    draws: 1
+    loot: []
+  revampedvillages/professions/toolsmith:
+    draws: 1
+    loot: []
+  revampedvillages/professions/weaponsmith:
+    draws: 1
+    loot: []
+  revampedvillages/savanna_common:
+    draws: 1
+    loot: []
+  revampedvillages/snowy_common:
+    draws: 1
+    loot: []
+  revampedvillages/taiga_common:
+    draws: 1
+    loot: []
+  revampedvillages/treasure:
+    draws: 10
+    loot:
+    - item: minecraft:emerald
+      rarity: 6
+    - item: minecraft:emerald_block
+      rarity: 1
+    - item: minecraft:iron_ingot
+      rarity: 2
+    - item: minecraft:gold_ingot
+      rarity: 2
+    - item: minecraft:lapis_lazuli
+      rarity: 3
+    - item: minecraft:diamond
+      rarity: 1

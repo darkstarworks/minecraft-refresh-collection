@@ -1,0 +1,279 @@
+# =============================================================
+#  LOOT SETTINGS
+#  Change the numbers, save this file, then run Build-Loot.
+#
+#  rarity  = how often an item shows up. Higher = more common.
+#            (it's a share of the total, not a percentage)
+#  amount  = how many you get. "1-3" means 1 to 3; a single
+#            number means always exactly that many.
+#  draws   = how many times the container rolls for an item.
+#
+#  Delete a line to remove that item. Copy a line to add one.
+#  Spell item names exactly, e.g. minecraft:diamond
+# =============================================================
+tables:
+  mansions/mansion_common:
+    draws: 1
+    loot: []
+  mansions/mansion_healing:
+    draws: 10
+    loot:
+    - item: minecraft:golden_apple
+      rarity: 7
+    - item: minecraft:cooked_beef
+      rarity: 15
+    - item: minecraft:cooked_chicken
+      rarity: 15
+    - item: minecraft:cooked_mutton
+      rarity: 15
+    - item: minecraft:mushroom_stew
+      rarity: 15
+    - item: minecraft:rabbit_stew
+      rarity: 15
+    - item: minecraft:potion
+      rarity: 10
+      amount: 1-1
+    - item: minecraft:potion
+      rarity: 10
+      amount: 1-1
+  mansions/mansion_junk:
+    draws: 5
+    loot:
+    - item: minecraft:cobweb
+      rarity: 20
+    - item: minecraft:stick
+      rarity: 10
+    - item: minecraft:iron_nugget
+      rarity: 10
+    - item: minecraft:emerald
+      rarity: 2
+  mansions/mansion_spawner_eject:
+    draws: 1
+    loot:
+    - item: minecraft:trial_key
+      rarity: 7
+  mansions/mansion_spawner_eject_ominous:
+    draws: 1
+    loot:
+    - item: minecraft:ominous_trial_key
+      rarity: 8
+    - item: minecraft:golden_apple
+      rarity: 1
+    - item: minecraft:potion
+      rarity: 1
+      amount: 1-1
+  mansions/mansion_treasure:
+    pools:
+    - draws: 12
+      loot:
+      - item: minecraft:iron_ingot
+        rarity: 25
+      - item: minecraft:gold_ingot
+        rarity: 25
+      - item: minecraft:emerald
+        rarity: 25
+      - item: minecraft:golden_apple
+        rarity: 5
+      - item: minecraft:book
+        rarity: 3
+      - item: minecraft:diamond
+        rarity: 1
+      - item: minecraft:emerald_block
+        rarity: 5
+      - item: minecraft:gold_block
+        rarity: 2
+    - draws: 1
+      loot:
+      - item: minecraft:vex_armor_trim_smithing_template
+        rarity: 2
+    - draws: 1
+      loot:
+      - item: minecraft:ominous_trial_key
+        rarity: 1
+    - draws: 1
+      loot:
+      - item: minecraft:trial_key
+        rarity: 1
+    - draws: 1
+      loot:
+      - item: minecraft:enchanted_golden_apple
+        rarity: 1
+  mansions/ominous_eject:
+    draws: 1
+    loot:
+    - item: minecraft:lingering_potion
+      rarity: 1
+      amount: 1
+    - item: minecraft:lingering_potion
+      rarity: 1
+      amount: 1
+    - item: minecraft:lingering_potion
+      rarity: 1
+      amount: 1
+  mansions/pillager_equipment:
+    draws: 1
+    loot: []
+  mansions/vault/reward:
+    pools:
+    - draws: 1
+      loot: []
+    - draws: 1-3
+      loot: []
+    - draws: 1
+      loot: []
+  mansions/vault/reward_common:
+    draws: 1
+    loot:
+    - item: minecraft:coal
+      rarity: 10
+      amount: 2-7
+    - item: minecraft:iron_ingot
+      rarity: 7
+      amount: 2-3
+    - item: minecraft:arrow
+      rarity: 7
+      amount: 2-3
+    - item: minecraft:golden_apple
+      rarity: 3
+      amount: 1
+    - item: minecraft:bone
+      rarity: 10
+      amount: 2
+    - item: minecraft:emerald
+      rarity: 10
+      amount: 2-5
+    - item: minecraft:beetroot_seeds
+      rarity: 7
+      amount: 1-2
+    - item: minecraft:bread
+      rarity: 7
+      amount: 1-3
+  mansions/vault/reward_ominous:
+    pools:
+    - draws: 1
+      loot: []
+    - draws: 1-3
+      loot: []
+    - draws: 1
+      loot: []
+  mansions/vault/reward_ominous_common:
+    draws: 1
+    loot:
+    - item: minecraft:amethyst_shard
+      rarity: 6
+      amount: 1-4
+    - item: minecraft:golden_apple
+      rarity: 6
+      amount: 1-1
+    - item: minecraft:emerald
+      rarity: 17
+      amount: 1-5
+    - item: minecraft:emerald_block
+      rarity: 4
+      amount: 1-1
+    - item: minecraft:ominous_bottle
+      rarity: 10
+      amount: 1-1
+    - item: minecraft:experience_bottle
+      rarity: 7
+      amount: 1-3
+    - item: minecraft:gold_ingot
+      rarity: 7
+      amount: 2-7
+  mansions/vault/reward_ominous_rare:
+    draws: 1
+    loot:
+    - item: minecraft:diamond
+      rarity: 6
+      amount: 1-3
+    - item: minecraft:book
+      rarity: 10
+    - item: minecraft:potion
+      rarity: 6
+      amount: 1-1
+    - item: minecraft:diamond_axe
+      rarity: 2
+    - item: minecraft:gold_block
+      rarity: 10
+      amount: 1-2
+    - item: minecraft:diamond_chestplate
+      rarity: 2
+  mansions/vault/reward_ominous_unique:
+    draws: 1
+    loot:
+    - item: minecraft:enchanted_golden_apple
+      rarity: 1
+    - item: minecraft:vex_armor_trim_smithing_template
+      rarity: 3
+    - item: minecraft:totem_of_undying
+      rarity: 3
+    - item: minecraft:music_disc_13
+      rarity: 3
+  mansions/vault/reward_rare:
+    draws: 1
+    loot:
+    - item: minecraft:iron_axe
+      rarity: 3
+    - item: minecraft:diamond_hoe
+      rarity: 2
+    - item: minecraft:name_tag
+      rarity: 7
+    - item: minecraft:saddle
+      rarity: 7
+    - item: minecraft:ominous_bottle
+      rarity: 8
+      amount: 1-1
+    - item: minecraft:diamond
+      rarity: 5
+      amount: 1-1
+    - item: minecraft:experience_bottle
+      rarity: 6
+      amount: 1-3
+    - item: minecraft:book
+      rarity: 10
+    - item: minecraft:crossbow
+      rarity: 5
+    - item: minecraft:bow
+      rarity: 5
+  mansions/vault/reward_unique:
+    draws: 1
+    loot:
+    - item: minecraft:enchanted_golden_apple
+      rarity: 1
+    - item: minecraft:sentry_armor_trim_smithing_template
+      rarity: 3
+    - item: minecraft:music_disc_cat
+      rarity: 1
+    - item: minecraft:goat_horn
+      rarity: 3
+  mansions/vindicator_equipment:
+    draws: 1
+    loot: []
+  minecraft/chests/woodland_mansion:
+    pools:
+    - draws: 10
+      loot:
+      - item: minecraft:iron_ingot
+        rarity: 25
+      - item: minecraft:emerald
+        rarity: 50
+      - item: minecraft:gunpowder
+        rarity: 25
+      - item: minecraft:bread
+        rarity: 15
+      - item: minecraft:name_tag
+        rarity: 2
+      - item: minecraft:saddle
+        rarity: 2
+      - item: minecraft:tripwire_hook
+        rarity: 2
+      - item: minecraft:golden_apple
+        rarity: 5
+      - item: minecraft:book
+        rarity: 2
+      - item: minecraft:diamond
+        rarity: 2
+    - draws: 1
+      loot:
+      - item: minecraft:trial_key
+        rarity: 1

@@ -1,0 +1,104 @@
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+▰                                                            ▰
+▰            HOW TO CHANGE THE LOOT IN THESE PACKS           ▰
+▰                                                            ▰
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+Every pack in this collection has a settings file in this "loot" folder,
+
+    ancient-cities.yml
+    crazy-chambers.yml
+    grand-capitals.yml
+    strongholds.yml
+    woodland-mansions.yml
+
+Edit the file that matches your data pack
+You do NOT need to touch the packs themselves; 
+> That is what  Build-Loot.exe  is for.
+
+
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+                         STEP BY STEP
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+1. Open the .yml file that matches the name of the Data Pack you use
+   (Notepad is fine)
+
+2. Change the numbers you want (see "WHAT THE NUMBERS MEAN" below), 
+   then save the file.
+
+3. Go back up one folder and double-click  Build-Loot.exe
+
+4. A black text window opens → puts the files together → and says either:
+
+   "Done. Updated 10 pack files."  →  You can use the  .zip  now.
+   or
+   "Nothing was changed..."        →  Something needs to be changed. 
+                                      You'll be told what and where.
+
+5. Re-add the updated pack to your world
+   (the same way you added it the first time)
+
+6. That's it, you're done.
+
+
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+                     WHAT THE NUMBERS MEAN
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+Each item in the file looks like this:
+
+    - item: minecraft:diamond
+      rarity: 3
+      amount: 1-2
+
+What those mean/do:
+
+  item    It's the item name how the game uses it, which always consists of
+          "namespace:identifier". If you don't use any custom items, "minecraft:"
+          is always the namespace you'll need. To find the correct identifier,
+          just google "netherite scrap item identifier" and you'll see it's: 
+          minecraft:netherite_scrap (replace with whatever.. grass block, obsidian)
+
+  rarity  How often the item shows up. It's a "share of the total", not a
+          percentage. If one item has rarity 3 and another has rarity 6, the
+          second one turns up about twice as often. Bigger number = more common.
+
+  amount  How many you get when it appears. "1-2" means one or two; a single
+          number like "4" means always exactly four. If an item has no
+          "amount" line, it always gives one.
+
+  draws   (near the top of each chest) How many times that container rolls for
+          an item. More draws = a fuller chest.
+
+
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+                   ADDING OR REMOVING ITEMS
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+  To REMOVE an item:  delete its three lines (item / rarity / amount).
+
+  To ADD an item:     copy an existing item's lines and change the name and
+                      numbers. Item names must be spelled exactly, all lowercase,
+                      like  minecraft:golden_apple  or  minecraft:emerald .
+                      If you misspell one, Build-Loot.exe will refuse to run and
+                      point you at the exact line - nothing gets broken.
+
+
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+                    GOOD / IMPORTANT TO KNOW
+▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+- Keep the spacing as it is! Each item's lines start with a dash and two
+  spaces. If a change won't build correctly, you probably lost the spacing.
+
+- Special items (enchanted books, potions, suspicious stew, damaged tools)
+  keep all their magic automatically. You're only changing how common they are
+  and how many drop.
+
+- Always keep a backup copy of a .yml file before big changes, just in case.
+  > This is not done for you - please do this manually!
+
+- Build-Loot.exe is a Windows program. If you are using Linux or Mac,
+  feel free to use the included Python app (which is identical to the .exe),
+  located in: 'tools\build_loot.py'
