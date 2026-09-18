@@ -1,0 +1,33 @@
+{
+  "name": "revampedvillages:outpost/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:outpost/decor/pumpkin",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:outpost/decor/cage",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:outpost/decor/wood",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

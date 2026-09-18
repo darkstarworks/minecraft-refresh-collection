@@ -1,0 +1,42 @@
+{
+  "name": "crazy_chambers:spawner/small_spawner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/spider",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "crazy_chambers:spawner/cave_spider",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/silverfish",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/slime",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

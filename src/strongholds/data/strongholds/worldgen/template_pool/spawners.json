@@ -1,0 +1,33 @@
+{
+  "name": "strongholds:spawners",
+  "fallback": "strongholds:spawners",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "strongholds:spawners/zombie",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "strongholds:spawners/skeleton",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "strongholds:spawners/spider",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

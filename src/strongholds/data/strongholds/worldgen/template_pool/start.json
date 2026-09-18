@@ -1,0 +1,16 @@
+{
+  "name": "strongholds:start",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "strongholds:portal/portal_room",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

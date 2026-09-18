@@ -1,0 +1,11 @@
+{
+  "slug": "strongholds",
+  "folder": "strongholds",
+  "name": "Strongholds",
+  "description": "New Strongholds to uncover and conquer.",
+  "version": "1.3",
+  "mod_id": "strongholds",
+  "modrinth_id": "reQ63xx3",
+  "logo": "strongholds_pack.png",
+  "kind": "data+resource"
+}

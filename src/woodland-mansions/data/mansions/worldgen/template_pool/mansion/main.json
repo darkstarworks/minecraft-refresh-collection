@@ -1,0 +1,52 @@
+{
+  "name": "mansions:mansion/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/bottom_front_left",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/bottom_back_left",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/bottom_front_right",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/bottom_back_right",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/top",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

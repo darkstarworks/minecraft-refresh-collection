@@ -1,0 +1,7 @@
+# Build leftovers, never the packs themselves - those are committed so they can
+# be downloaded straight from the repo.
+tools/build/
+tools/dist/
+tools/work/
+tools/*.spec.bak
+__pycache__/

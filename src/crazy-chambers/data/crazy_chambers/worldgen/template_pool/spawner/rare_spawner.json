@@ -1,0 +1,24 @@
+{
+  "name": "crazy_chambers:spawner/rare_spawner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/witch",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/iron_golem",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

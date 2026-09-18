@@ -1,0 +1,177 @@
+{
+  "name": "revampedvillages:savanna/end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_1",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_2",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_3",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_4",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_5",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/house/house_6",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/armorer",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/butcher",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/cartographer",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/cleric",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/fisherman",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/fletcher",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/librarian",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/mason",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/shepherd",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/leatherworker",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/toolsmith",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "revampedvillages:savanna/worker/weaponsmith",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:savanna/accessory/farm",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

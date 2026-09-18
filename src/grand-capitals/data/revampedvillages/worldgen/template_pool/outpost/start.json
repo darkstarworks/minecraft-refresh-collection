@@ -1,0 +1,15 @@
+{
+  "name": "revampedvillages:outpost/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:outpost/base_plate",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "crazy_chambers:medium",
+  "fallback": "crazy_chambers:end",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/floors",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/fountain",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/lava",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/obstacles",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/pillar",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/medium/well",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:continued/boss/boss_1",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "mobs-refreshed",
+  "folder": "mobs refreshed",
+  "name": "Mobs Refreshed",
+  "description": "New looks for the hostile mobs, from creepers and skeletons to shulkers and striders.",
+  "version": "3.0",
+  "kind": "resource"
+}

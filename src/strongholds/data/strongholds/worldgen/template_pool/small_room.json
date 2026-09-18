@@ -1,0 +1,70 @@
+{
+  "name": "strongholds:small_room",
+  "fallback": "strongholds:small_room_end",
+  "elements": [
+	
+    {
+      "weight": 2,
+      "element": {
+        "location": "strongholds:small_room/wall",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+     {
+      "weight": 10,
+      "element": {
+        "location": "strongholds:small_room/statue_vault",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "strongholds:small_room/statue_ominous_vault",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+     {
+      "weight": 15,
+      "element": {
+        "location": "strongholds:small_room/trial_spawner",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+      {
+      "weight": 3,
+      "element": {
+        "location": "strongholds:small_room/pots",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+      {
+      "weight": 3,
+      "element": {
+        "location": "strongholds:small_room/books",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+      {
+      "weight": 10,
+      "element": {
+        "location": "strongholds:small_room/chest",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

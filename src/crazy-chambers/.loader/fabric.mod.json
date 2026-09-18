@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "crazy_chambers",
+    "version": "1.2.0",
+    "name": "Crazy Chambers",
+    "description": "New and Improved Trial Chambers",
+    "authors": ["darkstarworks"],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/crazy-chambers"
+    },
+    "license": "LicenseRef-All-Rights-Reserved",
+    "icon": "crazy-chambers_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

@@ -1,0 +1,231 @@
+{
+  "name": "revampedvillages:snowy/pool",
+  "fallback": "revampedvillages:snowy/end",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:snowy/house/small_house_1",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:snowy/house/small_house_2",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:snowy/house/small_house_3",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/house/medium_house_1",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/house/medium_house_2",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/armorer",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/butcher",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/cartographer",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/cleric",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/fisherman",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/fletcher",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/library",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/mason",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/shepherd",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/tannery",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/toolsmith",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/worker/weaponsmith",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/road/path_1",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/road/path_2",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/road/path_3",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/road/path_4",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/main_road",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:snowy/town_road",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/house/accessory_barn",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "revampedvillages:snowy/house/accessory_farm",
+        "processors": "revampedvillages:village_weathering",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

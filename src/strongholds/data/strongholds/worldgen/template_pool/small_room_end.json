@@ -1,0 +1,16 @@
+{
+  "name": "strongholds:small_room_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+	
+    {
+      "weight": 20,
+      "element": {
+        "location": "strongholds:small_room/wall",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

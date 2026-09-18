@@ -1,0 +1,16 @@
+{
+  "name": "mansions:mansion/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 20,
+      "element": {
+        "location": "mansions:mansion/bottom_front_left",
+        "processors": "mansions:mansion_texture",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

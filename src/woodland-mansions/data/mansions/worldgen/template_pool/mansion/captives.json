@@ -1,0 +1,24 @@
+{
+  "name": "mansions:mansion/captives",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "mansions:entities/villager",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 5,
+      "element": {
+        "location": "mansions:entities/allay",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

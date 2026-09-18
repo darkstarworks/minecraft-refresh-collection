@@ -1,0 +1,105 @@
+{
+  "name": "ancient_cities:pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "ancient_cities:buildings/camp",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/freezer",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/house_1",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/house_2",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/house_3",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/house_4",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/jail",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/pools",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/ruins",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/temple",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:buildings/watchtower",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

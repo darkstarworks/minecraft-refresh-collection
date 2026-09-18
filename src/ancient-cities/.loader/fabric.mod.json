@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "ancient_cities",
+    "version": "1.4",
+    "name": "Ancient Cities",
+    "description": "New Ancient Cities to be lost in.",
+    "authors": ["darkstarworks"],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/ancient-cities"
+    },
+    "license": "LicenseRef-All-Rights-Reserved",
+    "icon": "ancient-cities_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

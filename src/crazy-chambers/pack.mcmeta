@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "§9discord.gg/aWMU2JNXex",
+    "min_format": 107,
+    "max_format": 999
+  },
+  "overlays": {
+    "entries": [
+      { "directory": "v26_3", "min_format": 121, "max_format": 999 }
+    ]
+  }
+}

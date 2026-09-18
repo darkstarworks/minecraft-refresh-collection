@@ -1,0 +1,51 @@
+{
+  "name": "crazy_chambers:spawner/melee_spawner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/zombie",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "crazy_chambers:spawner/baby_zombie",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/husk",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "crazy_chambers:spawner/creeper",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "crazy_chambers:spawner/slime",
+        "processors": "crazy_chambers:chamber_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

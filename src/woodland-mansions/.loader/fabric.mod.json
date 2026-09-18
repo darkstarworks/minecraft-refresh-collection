@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "woodland_mansions",
+    "version": "1.3",
+    "name": "Woodland Mansions",
+    "description": "New Mansions to explore and traverse.",
+    "authors": ["darkstarworks"],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/woodland-mansions"
+    },
+    "license": "LicenseRef-All-Rights-Reserved",
+    "icon": "woodland-mansions_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "strongholds:end",
+  "fallback": "strongholds:end",
+  "elements": [
+	
+    {
+      "weight": 50,
+      "element": {
+        "location": "strongholds:hallway/hallway_end",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "strongholds:room/crypt",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

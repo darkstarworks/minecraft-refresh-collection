@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.0 - 2026-09-18
+- Now works on both Minecraft 26.2 and 26.3 from the same download - the pack picks the right version for you
+- Updated everything 26.3 changed: loot tables, chest and barrel rewards, weathered blocks and the mobs that guard the place
+
 ## v1.2.0 — 2026-07-15
 - Villages now settle onto the terrain more consistently (placement heightmap aligned with vanilla)
 - Added light weathering to village stonework: some bricks now generate cracked

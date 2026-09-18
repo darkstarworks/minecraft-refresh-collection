@@ -1,0 +1,60 @@
+{
+  "name": "ancient_cities:center/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_1",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_2",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_3",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_4",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_5",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:center/part_6",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

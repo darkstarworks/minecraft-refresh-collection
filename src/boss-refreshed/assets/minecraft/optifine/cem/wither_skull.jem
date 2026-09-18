@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 2.5],
+			"submodels": [
+				{
+					"id": "wither_head_2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [2.87047, 6, 1],
+					"boxes": [
+						{"coordinates": [-5.22354, -1, -5.89778, 6, 0, 6], "textureOffset": [18, 117]},
+						{"coordinates": [-5.22354, -2, -2.89778, 6, 1, 0], "textureOffset": [24, 116]},
+						{"coordinates": [-5.22354, -2, -5.89778, 6, 6, 6], "textureOffset": [0, 116]},
+						{"coordinates": [-5.22354, -2, -5.89778, 6, 6, 12], "textureOffset": [36, 110], "sizeAdd": 0.1}
+					],
+					"submodels": [
+						{
+							"id": "jaw_2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-2.22354, -2, -1.89778],
+							"rotate": [-17.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-2, -3.18431, -3.85837, 4, 3, 5], "textureOffset": [0, 108]},
+								{"coordinates": [-2, -1.18431, -0.85837, 4, 3, 0], "textureOffset": [13, 110]},
+								{"coordinates": [-2, -1.18431, -3.85837, 4, 0, 5], "textureOffset": [19, 123]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"wither_head_2.rz": "torad(0)+0.3*sin(age/3)",
+					"jaw_2.rx": "torad(55)+0.6*sin(age/1)"
+				}
+			]
+		}
+	]
+}

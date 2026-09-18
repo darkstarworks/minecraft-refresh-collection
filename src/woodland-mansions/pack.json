@@ -1,0 +1,11 @@
+{
+  "slug": "woodland-mansions",
+  "folder": "woodland mansions",
+  "name": "Woodland Mansions",
+  "description": "New Mansions to explore and traverse.",
+  "version": "1.3",
+  "mod_id": "woodland_mansions",
+  "modrinth_id": "RZN5D3zs",
+  "logo": "woodland-mansions_pack.png",
+  "kind": "data+resource"
+}

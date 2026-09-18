@@ -1,0 +1,3 @@
+# Keep the packs byte-for-byte as they are on disk; Minecraft does not care
+# about line endings and rewriting them would churn every file.
+* -text

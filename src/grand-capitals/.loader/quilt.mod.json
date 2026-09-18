@@ -1,0 +1,27 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "com.modrinth",
+        "id": "grand_capitals",
+        "version": "1.3.0",
+        "metadata": {
+            "name": "Grand Capitals",
+            "description": "Rebuilt vanilla villages and illager structures to breathe new life into your world!",
+            "contributors": {
+                "darkstarworks": "Member"
+            },
+            "contact": {
+                "homepage": "https://modrinth.com/datapack/grand-capitals"
+            },
+            "icon": "grand-capitals_pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

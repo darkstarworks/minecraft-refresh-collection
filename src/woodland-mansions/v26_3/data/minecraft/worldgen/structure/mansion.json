@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/woodland_mansion",
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:pillager",
+          "weight": 80,
+          "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        {
+          "type": "minecraft:vindicator",
+          "weight": 20,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "mansions:mansion/start",
+  "size": 7,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE",
+  "max_distance_from_center": 100,
+  "use_expansion_hack": false
+}

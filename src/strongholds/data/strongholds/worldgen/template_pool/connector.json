@@ -1,0 +1,42 @@
+{
+  "name": "strongholds:connector",
+  "fallback": "strongholds:end",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "strongholds:connectors/oak_door",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+      {
+      "weight": 10,
+      "element": {
+        "location": "strongholds:connectors/spruce_door",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+      {
+      "weight": 4,
+      "element": {
+        "location": "strongholds:connectors/end",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "strongholds:connectors/secret_room",
+        "processors": "strongholds:stronghold_degradation",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

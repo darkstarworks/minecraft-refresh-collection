@@ -1,0 +1,15 @@
+{
+  "name": "ancient_cities:end",
+  "fallback": "ancient_cities:end",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "ancient_cities:connectors/bridge_end",
+        "processors": "ancient_cities:ancient_city_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

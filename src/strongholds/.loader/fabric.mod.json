@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "strongholds",
+    "version": "1.3",
+    "name": "Strongholds",
+    "description": "New Strongholds to uncover and conquer.",
+    "authors": ["darkstarworks"],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/strongholds"
+    },
+    "license": "LicenseRef-All-Rights-Reserved",
+    "icon": "strongholds_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

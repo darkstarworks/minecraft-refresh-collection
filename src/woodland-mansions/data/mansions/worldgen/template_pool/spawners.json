@@ -1,0 +1,52 @@
+{
+  "name": "mansions:spawners",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 35,
+      "element": {
+        "location": "mansions:spawners/pillager",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 25,
+      "element": {
+        "location": "mansions:spawners/vindicator",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+      {
+      "weight": 15,
+      "element": {
+        "location": "mansions:spawners/evoker",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+      {
+      "weight": 15,
+      "element": {
+        "location": "mansions:spawners/witch",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+     {
+      "weight": 10,
+      "element": {
+        "location": "mansions:spawners/illusioner",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+     
+  ]
+}
