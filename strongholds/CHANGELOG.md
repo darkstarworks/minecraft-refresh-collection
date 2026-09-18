@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.3 - 2026-09-18
+## v1.3 - 2026-09-19
 - Now works on both Minecraft 26.2 and 26.3 from the same download - the pack picks the right version for you
 - Updated everything 26.3 changed: loot tables, chest and barrel rewards, weathered blocks and the mobs that guard the place
 
