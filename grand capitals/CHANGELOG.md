@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.1 - 2026-09-23
+- Villages spawn more often. They were spread so far apart that some worlds had almost none; they are now only a little rarer than in plain Minecraft, and no longer line up in a grid
+- Only newly explored areas get the extra villages
+
 ## v1.3.0 - 2026-09-19
 - Now works on both Minecraft 26.2 and 26.3 from the same download - the pack picks the right version for you
 - Updated everything 26.3 changed: loot tables, chest and barrel rewards, weathered blocks and the mobs that guard the place

@@ -43,6 +43,20 @@ Each mod `.jar` is a Modrinth-style **data-pack-in-a-jar wrapper**: the same dat
 
 The editable files live in [`src/`](./src), one folder per pack. Run `python3 tools/build_pack.py` to turn them back into the `.zip` and `.jar` you see in each project folder. The 26.3 folder inside each pack is generated automatically by `tools/convert_26_3.py`, so only the main files are ever edited by hand.
 
+## Change how often villages appear (Grand Capitals)
+
+Grand Capitals villages are much bigger than normal ones, so they are spread further apart than in plain Minecraft. If you want more or fewer of them, you can make a tiny data pack of your own:
+
+1. Make a folder, for example `my-village-spacing`.
+2. Inside it, create `pack.mcmeta` containing: `{"pack": {"description": "Village spacing", "min_format": 107, "max_format": 999}}`
+3. Create the file `data/minecraft/worldgen/structure_set/villages.json` inside that folder, and copy [the one from Grand Capitals](./src/grand-capitals/data/minecraft/worldgen/structure_set/villages.json) into it.
+4. Change the two numbers:
+   - `spacing` is roughly how far apart villages are, measured in chunks (1 chunk = 16 blocks). Grand Capitals uses 40. Plain Minecraft uses 34. Lower means more villages.
+   - `separation` is the closest two villages may ever be, in chunks. It must be smaller than `spacing`. Grand Capitals uses 12.
+5. Put the folder in your world's `datapacks` folder. It works the same whether you use the Grand Capitals `.zip` or the mod `.jar`, as long as your pack loads after Grand Capitals (check with `/datapack list`; it should be listed later).
+
+Only new, unexplored parts of the world are affected. Villages that already generated stay where they are.
+
 ## Customise the loot
 
 Every chest, barrel, pot and reward vault in these packs can be tuned without touching any JSON. Each pack has a plain-text settings file in [`loot/`](./loot) where you set how common each item is (`rarity`), how many drop (`amount`), and how full each container rolls (`draws`) — you can add or remove items too. Double-click **`Build-Loot.exe`** and it validates your changes (misspelled item names are caught before anything is written), then rebuilds every pack's `.zip` **and** `.jar` in sync. On Linux/Mac, run [`tools/build_loot.py`](./tools/build_loot.py) instead — it's identical. Full guide: [`loot/HOW TO CHANGE LOOT.txt`](./loot/HOW%20TO%20CHANGE%20LOOT.txt).
