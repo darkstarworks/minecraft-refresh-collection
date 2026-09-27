@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.2 - 2026-09-27
+- Fixed villagers getting stuck at some doorways: a rug placed right against the door was making the opening too narrow to walk through, in 17 buildings across every village type
+
 ## v1.3.1 - 2026-09-23
 - Villages spawn more often. They were spread so far apart that some worlds had almost none; they are now only a little rarer than in plain Minecraft, and no longer line up in a grid
 - Only newly explored areas get the extra villages
